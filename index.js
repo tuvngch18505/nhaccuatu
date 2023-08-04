@@ -45,7 +45,7 @@ const app = {
                 name: "Nơi này có anh",
                 singer: "Sơn Tùng mtp",
                 path: "./assets/music/song_1.mp3",
-                image: "./assets/img/img_1.jpg"
+                image: "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/covers/c/b/cb61528885ea3cdcd9bdb9dfbab067b1_1504988884.jpg"
             },
             {
                 Id: "2",

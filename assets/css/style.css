@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #ec1f55;
+  --primary-color: #26575e;
   --text-color: #333;
-  --player-bg: #130c1c;
-  --player-text: #fff;
+  --player-bg: #a3d5dc;
+  --player-text: #32323d;
   --text-primary: #fff;
-  --text-secondary: hsla(0, 0%, 100%, 0.5);
-  --purple-primary: #9b4de0;
+  --text-secondary: hsla(0, 2%, 35%, 0.5);
+  --purple-primary: #0bc2f0;
   --border-player: hsla(0, 0%, 100%, 0.1);
   --progressbar-active-bg: #fff;
   --progressbar-player-bg: hsla(0, 0%, 100%, 0.3);
@@ -41,8 +41,8 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   z-index: -5;
 }
 
@@ -155,7 +155,7 @@ header h2 {
 .cd-content .content-top .created-by,
 .cd-content .content-top .like,
 .cd-content .content-top .release {
-  color: black;
+  color: #d3d3d3;
   font-size: 12px;
   line-height: 1.75;
   margin-bottom: 4px;
@@ -188,36 +188,29 @@ header h2 {
 }
 
 /* CONTROL */
-.control {
+/* .actions {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 18px 0 8px 0;
 }
 
-.control .btn {
+.actions .btn {
   color: #666;
   padding: 18px;
   font-size: 18px;
   width: 40px;
   height: 40px;
-}
+} */
 
-.control .btn.active {
+.actions .btn.active {
   color: var(--primary-color);
 }
 
-.control .btn-toggle-play {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  font-size: 24px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--primary-color);
+.actions .btn :hover {
+  color: var(--primary-color);
 }
+
 
 .progress {
   width: 100%;
@@ -456,7 +449,7 @@ a {
   animation-timing-function: linear;
 }
 
-.player-controls-left .media-left .thumbnail-wrapper .thumbnail .image {
+.player-controls-left .media-left .thumbnail-wrapper .thumbnail .image-thumb {
   width: 64px;
   height: 64px;
   border-radius: 4px;
