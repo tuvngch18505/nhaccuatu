@@ -51,64 +51,64 @@ const app = {
                 Id: "2",
                 name: "Nevada",
                 singer: "Vicetone",
-                path: "/assets/music/song_2.mp3",
-                image: "/assets/img/img_2.jpg"
+                path: "./assets/music/song_2.mp3",
+                image: "./assets/img/img_2.jpg"
             },
             {
                 Id: "3",
                 name: "Đắm",
                 singer: "Xesi, Ricky Star",
-                path: "/assets/music/song_3.mp3",
-                image: "/assets/img/img_3.jpg"
+                path: "./assets/music/song_3.mp3",
+                image: "./assets/img/img_3.jpg"
             },
             {
                 Id: "4",
                 name: "Stay",
                 singer: "Justin Biber",
-                path: "/assets/music/song_4.mp3",
-                image: "/assets/img/img_4.jpg"
+                path: "./assets/music/song_4.mp3",
+                image: "./assets/img/img_4.jpg"
             },
             {
                 Id: "5",
                 name: "Bài ca tuổi trẻ",
                 singer: "Tam Ca PKL",
-                path: "/assets/music/song_5.mp3",
-                image: "/assets/img/img_5.jpg"
+                path: "./assets/music/song_5.mp3",
+                image: "./assets/img/img_5.jpg"
             },
             {
                 Id: "6",
                 name: "Cho tôi đi theo",
                 singer: "Ngọt",
-                path: "/assets/music/song_6.mp3",
-                image: "/assets/img/img_6.jpg"
+                path: "./assets/music/song_6.mp3",
+                image: "./assets/img/img_6.jpg"
             },
             {
                 Id: "7",
                 name: "Để tôi ôm em bằng giai điệu này",
                 singer: "Kai Đinh x Min",
-                path: "/assets/music/song_7.mp3",
-                image: "/assets/img/img_7.jpg"
+                path: "./assets/music/song_7.mp3",
+                image: "./assets/img/img_7.jpg"
             },
             {
                 Id: "8",
                 name: "Ai chung tình được mãi",
                 singer: "Đinh Tùng Huy",
-                path: "/assets/music/song_8.mp3",
-                image: "/assets/img/img_8.webp"
+                path: "./assets/music/song_8.mp3",
+                image: "./assets/img/img_8.webp"
             },
             {
                 Id: "9",
                 name: "Anh sai rồi",
                 singer: "Sơn Tùng mtp",
-                path: "/assets/music/song_9.mp3",
-                image: "/assets/img/img_9.webp"
+                path: "./assets/music/song_9.mp3",
+                image: "./assets/img/img_9.webp"
             },
             {
                 Id: "10",
                 name: "À Lôi",
                 singer: "Double2T",
-                path: "/assets/music/song_10.mp3",
-                image: "/assets/img/img_10.jpg"
+                path: "./assets/music/song_10.mp3",
+                image: "./assets/img/img_10.jpg"
             },
         ],
     setConfig: function (key, value) {
