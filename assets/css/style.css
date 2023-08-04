@@ -1,15 +1,15 @@
 :root {
-  --primary-color: #26575e;
+  --primary-color: #090e2b;
   --text-color: #333;
   --player-bg: #a3d5dc;
   --player-text: #32323d;
   --text-primary: #fff;
   --text-secondary: hsla(0, 2%, 35%, 0.5);
-  --purple-primary: #0bc2f0;
+  --purple-primary: #e94200;
   --border-player: hsla(0, 0%, 100%, 0.1);
   --progressbar-active-bg: #fff;
   --progressbar-player-bg: hsla(0, 0%, 100%, 0.3);
-  --white: #271616;
+  --white: #fff;
 }
 
 * {
@@ -31,7 +31,7 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 20px 10px 100px 10px;
-  color: black;
+  color: #b82d2d;
   position: relative;
 
 }
@@ -39,15 +39,12 @@
 
 #myVideo {
   position: fixed;
-  left: -650px;
+  right: 600px;
   bottom: 0;
-  /* max-width: 100%;
-  max-height: 100%; */
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   z-index: -5;
 }
-
 
 body {
   background-color: #f5f5f5;
@@ -158,7 +155,7 @@ header h2 {
 .cd-content .content-top .created-by,
 .cd-content .content-top .like,
 .cd-content .content-top .release {
-  color: #d3d3d3;
+  color: black;
   font-size: 12px;
   line-height: 1.75;
   margin-bottom: 4px;
@@ -452,7 +449,7 @@ a {
   animation-timing-function: linear;
 }
 
-.player-controls-left .media-left .thumbnail-wrapper .thumbnail .image-thumb {
+.player-controls-left .media-left .thumbnail-wrapper .thumbnail .image {
   width: 64px;
   height: 64px;
   border-radius: 4px;

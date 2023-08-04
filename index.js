@@ -28,11 +28,11 @@ const btnplayall = $(".btn-play-all");
 const textPlay = $('.text-play');
 const icon = $('.icon-pause');
 const timeMusic = $('#time-music-1');
-const myVideo = $('#myVideo');
-console.log(myVideo);
+const myVideo = $('#myVideo')
+console.log(timeMusic);
 
 const app = {
-    currentIndex: 1,
+    currentIndex: 0,
     isPlaying: false,
     isRandom: false,
     isRepeat: false,
@@ -43,10 +43,10 @@ const app = {
         [
             {
                 Id: "1",
-                name: "Nơi này có anh",
+                name: "Nơi này có em",
                 singer: "Sơn Tùng mtp",
                 path: "./assets/music/song_1.mp3",
-                image: "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/covers/c/b/cb61528885ea3cdcd9bdb9dfbab067b1_1504988884.jpg"
+                image: "./assets/img/Tu-Chuyen1.jpg"
             },
             {
                 Id: "2",

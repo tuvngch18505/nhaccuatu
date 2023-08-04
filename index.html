@@ -17,167 +17,172 @@
 </head>
 
 <body>
-  <div class="container">
-    <video muted="" loop="" id="myVideo">
-      <source src="./assets/video/3995510173968981630.mp4" type="video/mp4">
-    </video>
-    
-    
-    <div class="cd">
-      <div class="cd-thumb">
+  <div class="container-bg">
+    <div class="container">
+      <video autoplay="" muted="" loop="" id="myVideo">
+        <source src="./assets/video/6146152820198667484.mp4" type="video/mp4">
+      </video>
+      <div class="cd">
+        <div class="cd-thumb">
 
-      </div>
-      <div class="cd-content">
-        <div class="content-top">
-          <h3 class="title"> Song</h3>
-          <div class="artists">Singer</div>
         </div>
-        <div class="actions">
-          <button class="zm-btn btn-play-all is-outlined active is-medium is-upper button">
-            <i class="fas fa-pause icon-pause"></i>
-            <i class="fas fa-play icon-play"></i>
-            <span class="text-play">Phát tất cả</span>
-          </button>
+        <div class="cd-content">
+          <div class="content-top">
+            <h3 class="title"> Song</h3>
+            <div class="artists">Singer</div>
+          </div>
+          <div class="actions">
+            <button class="zm-btn btn-play-all is-outlined active is-medium is-upper button">
+              <i class="fas fa-pause icon-pause"></i>
+              <i class="fas fa-play icon-play"></i>
+              <span class="text-play">Phát tất cả</span>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Playlist -->
-    <div class="playlist">
-      <div class="infor_intro">
-        <span>No.</span>
-        <span class="info-song">Bài hát</span>
-        <span class="time">Thời gian</span>
-      </div>  
-      <div class="song_lists">
+      <!-- Playlist -->
+      <div class="playlist">
+        <div class="infor_intro">
+          <span>No.</span>
+          <span class="info-song">Bài hát</span>
+          <span class="time">Thời gian</span>
+        </div>
+        <div class="song_lists">
+        </div>
       </div>
-    </div>
-    <!--  Player -->
-    <div class="player player-controls clickable">
-      <div class="level player-controls__container">
-        <div class="player-controls-left level-center">
-          <div class="level-item is-narror">
-            <div class="media">
-              <div class="media-left">
-                <a href="/">
-                  <div class="thumbnail-wrapper">
-                    <div class="thumbnail">
-                      <figure class="image-thumb">
+      <!--  Player -->
+      <div class="player player-controls clickable">
+        <div class="level player-controls__container">
+          <div class="player-controls-left level-center">
+            <div class="level-item is-narror">
+              <div class="media">
+                <div class="media-left">
+                  <a href="/">
+                    <div class="thumbnail-wrapper">
+                      <div class="thumbnail">
+                        <figure class="image-thumb is-50x50">
 
-                      </figure>
-                      
+                        </figure>
+
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="media-content">
+                  <div class="is-mark level-left">
+                    <div class="song-info-wrapper">
+                      <span class="song-title-item">
+                        <a href="/assets/music/song_1.mp3">
+                          <div class="title-wrapper">
+                            <span class="item-title title">
+                              Nơi này có anh
+                            </span>
+                          </div>
+                        </a>
+                      </span>
                     </div>
                   </div>
-                </a>
-              </div>
-              <div class="media-content">
-                <div class="is-mark level-left">
-                  <div class="song-info-wrapper">
-                    <span class="song-title-item">
-                      <a href="/assets/music/song_1.mp3">
-                        <div class="title-wrapper">
-                          <span class="item-title title">
-                            Nơi này có anh
-                          </span>
-                        </div>
-                      </a>
-                    </span>
-                  </div>
+                  <h3 class="is-one-line is-truncate subtitle">
+                    <a href="/nghe-si/Son-Tung-Mtp">
+                      Sơn Tùng MTP
+                    </a>
+                  </h3>
                 </div>
-                <h3 class="is-one-line is-truncate subtitle">
-                  <a href="/nghe-si/Son-Tung-Mtp">
-                    Sơn Tùng MTP
-                  </a>
-                </h3>
-              </div>
-              <div class="media-right">
-                <div class="level">
-                  <div class="level-item">
-                    <button
-                      class="zm-btn zm-tooltip-btn animation-like zm-disable-transition active is-hover-circle button"
-                      tabindex="0"><i class="icon ic-like"></i><i class="icon ic-like-full"></i></button>
-                    <i class="icon ic-like">
-                    </i>
-                    <i class="icon ic-like-full">
-                    </i>
-                  </div>
-                  <div class="level-item">
-                    <span id="np_menu"><button class="zm-btn zm-tooltip-btn btn-more is-hover-circle button"
-                        tabindex="0"><i class="icon ic-more"></i></button></span>
+                <div class="media-right">
+                  <div class="level">
+                    <div class="level-item">
+                      <button
+                        class="zm-btn zm-tooltip-btn animation-like zm-disable-transition active is-hover-circle button"
+                        tabindex="0"><i class="icon ic-like"></i><i class="icon ic-like-full"></i></button>
+                      <i class="icon ic-like">
+                      </i>
+                      <i class="icon ic-like-full">
+                      </i>
+                    </div>
+                    <div class="level-item">
+                      <span id="np_menu"><button class="zm-btn zm-tooltip-btn btn-more is-hover-circle button"
+                          tabindex="0"><i class="icon ic-more"></i></button></span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="player-controls__player-bar level-center">
-          <div class="level-item">
+          <div class="player-controls__player-bar level-center">
+            <div class="level-item">
 
-            <div class="actions">
-              <button class="zm-btn zm-tooltip-btn btn-shuffle is-hover-circle button btn btn-repeat" style="font-size: 16px; " tabindex="0"><i
-                  class="fas fa-redo"></i>
-              </button>
-              <button class="zm-btn zm-tooltip-btn btn-pre is-hover-circle button btn btn-prev"  style="font-size: 16px;"  tabindex="0">
-                <i class="fas fa-step-backward"> </i>
-              </button>
-              <button class="zm-btn zm-tooltip-btn btn-play button btn btn-toggle-play" style="font-size: 40px;"tabindex="0">
-                <i class="fa-regular fa-pause-circle icon-pause"></i>
-                <i class="fa-regular fa-circle-play icon-play"></i>
-              </button>
-              <button class="zm-btn zm-tooltip-btn btn-next is-hover-circle button btn btn-next" style="font-size: 16px;" tabindex="0"><i
-                  class="fas fa-step-forward"></i>
-              </button>
-              <button class="zm-btn zm-tooltip-btn btn-repeat is-hover-circle button btn btn-random" style="font-size: 16px;" tabindex="0"><i
-                  class="fas fa-random"></i>
-              </button>
-            </div>
-          </div>
-          <div class="level-item mar-b-5">
-            <span class="time left">4:20</span>
-            <div class="zm-duration-bar" style="display: flex;justify-content: center;">
-              <div class="zm-slider-bar"
-                style="border-radius: 4px;background: linear-gradient(to right, var(--progressbar-active-bg) 0%, var(--progressbar-active-bg) 0%, var(--progressbar-player-bg) 0%, var(--progressbar-player-bg) 100%);align-self: center;">
-                <div tabindex="0" aria-valuemax="334.576313" aria-valuemin="0" aria-valuenow="0" draggable="false"
-                  role="slider" class="zm-slider-handle"
-                  style="border-radius: 50%; background-color: var(--progressbar-active-bg); transform: translate(-5px, -3.5px);">
-                </div>
+              <div class="actions">
+                <button class="zm-btn zm-tooltip-btn btn-shuffle is-hover-circle button btn btn-repeat"
+                  style="font-size: 16px; " tabindex="0"><i class="fas fa-redo"></i>
+                </button>
+                <button class="zm-btn zm-tooltip-btn btn-pre is-hover-circle button btn btn-prev"
+                  style="font-size: 16px;" tabindex="0">
+                  <i class="fas fa-step-backward"> </i>
+                </button>
+                <button class="zm-btn zm-tooltip-btn btn-play button btn btn-toggle-play" style="font-size: 40px;"
+                  tabindex="0">
+                  <i class="fa-regular fa-pause-circle icon-pause"></i>
+                  <i class="fa-regular fa-circle-play icon-play"></i>
+                </button>
+                <button class="zm-btn zm-tooltip-btn btn-next is-hover-circle button btn btn-next"
+                  style="font-size: 16px;" tabindex="0"><i class="fas fa-step-forward"></i>
+                </button>
+                <button class="zm-btn zm-tooltip-btn btn-repeat is-hover-circle button btn btn-random"
+                  style="font-size: 16px;" tabindex="0"><i class="fas fa-random"></i>
+                </button>
               </div>
             </div>
-            <span class="time right">5:40</span>
-          </div>
-          <audio id="audio" src=""></audio>
-
-        </div>
-
-        <div class="player-controls-right level-right">
-          <div class="level-item is-narrow">
-            <div class="zm-player-volume">
-              <button class="zm-btn zm-tooltip-btn btn-volume is-hover-circle button" tabindex="0"><i
-                  class="icon ic-volume"></i></button>
-              <div class="zm-duration-bar" style="display: flex; justify-content: center;">
+            <div class="level-item mar-b-5">
+              <span class="time left">4:20</span>
+              <div class="zm-duration-bar" style="display: flex;justify-content: center;">
                 <div class="zm-slider-bar"
-                  style="border-radius: 4px; background: linear-gradient(to right, var(--progressbar-active-bg) 0%, var(--progressbar-active-bg) 27%, var(--progressbar-player-bg) 27%, var(--progressbar-player-bg) 100%); align-self: center;">
-                  <div tabindex="0" aria-valuemax="100" aria-valuemin="0" aria-valuenow="27" draggable="false"
+                  style="border-radius: 4px;background: linear-gradient(to right, var(--progressbar-active-bg) 0%, var(--progressbar-active-bg) 0%, var(--progressbar-player-bg) 0%, var(--progressbar-player-bg) 100%);align-self: center;">
+                  <div tabindex="0" aria-valuemax="334.576313" aria-valuemin="0" aria-valuenow="0" draggable="false"
                     role="slider" class="zm-slider-handle"
-                    style="border-radius: 50%; background-color: var(--progressbar-active-bg); transform: translate(13.9px, -3.5px);">
+                    style="border-radius: 50%; background-color: var(--progressbar-active-bg); transform: translate(-5px, -3.5px);">
                   </div>
+                </div>
+              </div>
+              <span class="time right">5:40</span>
+            </div>
+            <audio id="audio" src=""></audio>
 
+          </div>
+
+          <div class="player-controls-right level-right">
+            <div class="level-item is-narrow">
+              <div class="zm-player-volume">
+                <button class="zm-btn zm-tooltip-btn btn-volume is-hover-circle button" tabindex="0"><i
+                    class="icon ic-volume"></i></button>
+                <div class="zm-duration-bar" style="display: flex; justify-content: center;">
+                  <div class="zm-slider-bar"
+                    style="border-radius: 4px; background: linear-gradient(to right, var(--progressbar-active-bg) 0%, var(--progressbar-active-bg) 27%, var(--progressbar-player-bg) 27%, var(--progressbar-player-bg) 100%); align-self: center;">
+                    <div tabindex="0" aria-valuemax="100" aria-valuemin="0" aria-valuenow="27" draggable="false"
+                      role="slider" class="zm-slider-handle"
+                      style="border-radius: 50%; background-color: var(--progressbar-active-bg); transform: translate(13.9px, -3.5px);">
+                    </div>
+
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
         </div>
+
+        <!-- </div> -->
+
 
       </div>
 
-      <!-- </div> -->
-
-
     </div>
+  </div>
 
 
-    <script src="index.js"></script>
 
-    <!-- Design from: https://static.collectui.com/shots/3671744/musicloud-revolutionary-app-for-music-streaming-large -->
+  <script src="index.js"></script>
+
+  <!-- Design from: https://static.collectui.com/shots/3671744/musicloud-revolutionary-app-for-music-streaming-large -->
 </body>
 
 </html>
