@@ -28,10 +28,11 @@ const btnplayall = $(".btn-play-all");
 const textPlay = $('.text-play');
 const icon = $('.icon-pause');
 const timeMusic = $('#time-music-1');
-console.log(timeMusic);
+const myVideo = $('#myVideo');
+console.log(myVideo);
 
 const app = {
-    currentIndex: 3,
+    currentIndex: 1,
     isPlaying: false,
     isRandom: false,
     isRepeat: false,
@@ -165,16 +166,20 @@ const app = {
         playBtn.onclick = function () {
             if (_this.isPlaying) {
                 audio.pause();
+                myVideo.pause();
             } else {
                 audio.play();
+                myVideo.play();
             }
         };
 
         btnplayall.onclick = () => {
             if (app.isPlaying) {
                 audio.pause();
+                myVideo.pause();
             } else {
                 audio.play();
+                myVideo.play();
             }
         }
 
